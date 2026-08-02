@@ -129,7 +129,7 @@ textarea:focus {
   color: #6d665f;
 }
 
-.recipe-form {
+.dispenser-form {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -139,7 +139,7 @@ textarea:focus {
   grid-column: 1 / -1;
 }
 
-.recipe-form button {
+.dispenser-form button {
   justify-self: start;
   border: 0;
   border-radius: 10px;
@@ -150,31 +150,31 @@ textarea:focus {
   cursor: pointer;
 }
 
-.recipe-form button:hover {
+.dispenser-form button:hover {
   background: #91482b;
 }
 
-.recipe-grid {
+.dispenser-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
-.recipe-card {
+.dispenser-card {
   overflow: hidden;
   border-radius: 16px;
   background: white;
   box-shadow: 0 10px 30px rgba(72, 57, 42, 0.1);
 }
 
-.recipe-card img {
+.dispenser-card img {
   width: 100%;
   height: 210px;
   object-fit: cover;
   display: block;
 }
 
-.recipe-card-content {
+.dispenser-card-content {
   padding: 1.25rem;
 }
 
@@ -187,7 +187,7 @@ textarea:focus {
   font-weight: 700;
 }
 
-.recipe-card h3 {
+.dispenser-card h3 {
   margin: 0.8rem 0 0.5rem;
 }
 
