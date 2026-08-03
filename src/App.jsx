@@ -29,24 +29,26 @@ function App () {
     <>
           <Header/>
 
-          <main className='page-container'>
-              <div>
-                 <p>Best Service Ever</p>
-                 <h2>Get your best modern Dispenser through us </h2>
-                 <p>
+          <main className="max-w-4xl mx-auto px-6">
+              <div className="text-center py-10">
+                 <p className="text-red-500 font-semibold">Best Service Ever</p>
+                 <h2 className="text-3x1 font-bold my-2 text-gray-900">
+                  Get your best modern Dispenser through us
+                   </h2>
+                 <p className="text-gray-600">
                     Connect with us Today for quality Dispensers
                  </p>
               </div>
-          </main>
 
           <DispenserForm addDispenser={addDispenser} />
           <SearchBar searchTerm={searchTerm} onSearch={setSearchTerm} />
           <DispenserList dispensers={filteredDispensers} />
+          </main>
 
     </>
 
   )
-  
+
 }
 
 export default App;
