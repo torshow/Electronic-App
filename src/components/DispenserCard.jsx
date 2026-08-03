@@ -1,8 +1,9 @@
 function DispenserCard({dispenser}) {
 return (
-    <article className="dispenser-card">
+    <article className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
 
-    <img src={dispenser.image} alt={dispenser.name} />
+    <img src={dispenser.image} alt={dispenser.name}
+     />
 
     <div>
         <div> 
